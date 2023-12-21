@@ -2,7 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Landing from './landing';
+import Landing from './context';
+
+
 
 function App() {
   return (

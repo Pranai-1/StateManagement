@@ -33,8 +33,8 @@ export default function Landing() {
             <p className="h-max w-full p-2 text-green-600 font-bold text-center">Happy Shopping</p>
             <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center items-center mt-5 p-3">
                 {items.map((item, index) => (
-                    <div className=" bg-slate-200 py-10 rounded-lg px-3">
-                    <p key={index} className="text-black text-center p-2 font-bold text-xl">{item}</p>
+                    <div className=" bg-slate-200 py-10 rounded-lg px-3" >
+                    <p  className="text-black text-center p-2 font-bold text-xl">{item}</p>
                     <div className="flex justify-center gap-7">
                         <AddToCart item={item}/>
                     </div>
